@@ -116,6 +116,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\addresses.txt" />
+    <Text Include="..\correct.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\BACKING_STORE.bin" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
